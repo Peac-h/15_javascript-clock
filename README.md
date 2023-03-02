@@ -2,7 +2,7 @@
 
 Javascript digital and analogue clocks, switching by clicking on a button.
 
-The page shows both the time and the date, both based on user's default locale, made language-sensitive by using the `Intl.DateTimeFormat` object.
+The page shows both the time and the date based on user's default locale, made language-sensitive by using the `Intl.DateTimeFormat` object.
 
 Responsive for all screen sizes.
 
