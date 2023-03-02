@@ -1,0 +1,12 @@
+.clock--digital {
+  max-width: 40rem;
+  width: 100%;
+  @include flex;
+
+  .date {
+    font-size: 3.5rem;
+  }
+  .time {
+    font-size: 8rem;
+  }
+}

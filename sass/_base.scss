@@ -1,0 +1,42 @@
+:root {
+  --color-bg: linear-gradient(to right, #544a7d, #ffd452);
+  --color-peach: peachpuff;
+  --color-white: #fff;
+}
+
+// sass variables
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// breakpoints
+$bp-small: 25em; ///////////// 400px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 40%;
+  }
+}
+
+body {
+  height: 100vh;
+  background: var(--color-bg);
+  font-family: "Shadows Into Light", cursive;
+  color: var(--color-white);
+  @include flex;
+  gap: 2rem;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Javascript digital and analogue clocks, coded by the Peach."
+    />
+    <meta name="keywords" content="HTML, CSS, Sass, Javascript, Coding" />
+    <meta name="author" content="the Peach" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&family=East+Sea+Dokdo&family=Handlee&family=Raleway:wght@400;700&family=Shadows+Into+Light&family=Share+Tech+Mono&family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="fav/site.webmanifest" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>Javascript Clock</title>
+  </head>
+
+  <body>
+    <div class="btn-wrapper">
+      <button class="btn" data-button>analogue?</button>
+    </div>
+
+    <div class="clock--digital" data-digital>
+      <div class="date" data-date>0000-00-00</div>
+      <div class="time" data-time>00:00:00</div>
+      <div class="author author--digital">
+        Coded with love,
+        <span>by <a href="https://github.com/Peac-h">the Peach</a></span>
+      </div>
+    </div>
+
+    <div class="clock--analogue hidden" data-analogue>
+      <div class="hand hours" data-hours></div>
+      <div class="hand minutes" data-minutes></div>
+      <div class="hand seconds" data-seconds></div>
+      <div class="number number--1" data-number></div>
+      <div class="number number--2" data-number></div>
+      <div class="number number--3" data-number></div>
+      <div class="number number--4" data-number></div>
+      <div class="number number--5" data-number></div>
+      <div class="number number--6" data-number></div>
+      <div class="number number--7" data-number></div>
+      <div class="number number--8" data-number></div>
+      <div class="number number--9" data-number></div>
+      <div class="number number--10" data-number></div>
+      <div class="number number--11" data-number></div>
+      <div class="number number--12" data-number></div>
+      <div class="author author--analogue">
+        Coded with love,
+        <span>by <a href="https://github.com/Peac-h">the Peach</a></span>
+      </div>
+    </div>
+  </body>
+</html>

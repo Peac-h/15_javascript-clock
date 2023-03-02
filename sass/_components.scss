@@ -1,0 +1,54 @@
+.btn-wrapper {
+  max-width: 40rem;
+  width: 100%;
+  text-align: end;
+
+  .btn {
+    font-family: inherit;
+    font-size: 2.2rem;
+    color: var(--color-white);
+
+    width: 10rem;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: rotate(-10deg);
+      border: 1px solid var(--color-peach);
+      color: var(--color-peach);
+    }
+    &:focus {
+      outline: 4px solid rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.author {
+  font-size: 2rem;
+  color: var(--color-peach);
+  text-align: center;
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: var(--color-peach);
+  }
+
+  &--digital {
+    letter-spacing: 4px;
+    @media only screen and (max-width: $bp-small) {
+      letter-spacing: 2.5px;
+    }
+  }
+  &--analogue {
+    translate: 0 35rem;
+    letter-spacing: 2px;
+  }
+}
