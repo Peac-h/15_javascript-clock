@@ -10,7 +10,7 @@ Responsive for all screen sizes.
 
 ## Checkout the live demo
 
-[Javascript Clock]()
+[Javascript Clock](https://peac-h.github.io/15_javascript-clock/)
 
 ## Built with
 
