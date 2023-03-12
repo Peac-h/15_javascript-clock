@@ -12,6 +12,10 @@ Responsive for all screen sizes.
 
 [Javascript Clock](https://peac-h.github.io/15_javascript-clock/)
 
+![digital](https://raw.githubusercontent.com/Peac-h/15_javascript-clock/main/Screenshot%20digital.png)
+
+![analogue](https://raw.githubusercontent.com/Peac-h/15_javascript-clock/main/Screenshot%20analogue.png)
+
 ## Built with
 
 - html
